@@ -1,0 +1,13 @@
+# this will only format cs files that are under "MyFolder" folder (not in subfolders)
+[Scripts/*.cs]
+formatters = uncrustify, generic
+
+# this will format cs files under "MyFolder" folder and any of its subfolders
+[Scripts/**.cs]
+formatters = uncrustify, generic
+
+#[*.asmdef]
+#scrape_api = true
+
+#[**/Tests/**.asmdef]
+#scrape_api = false
