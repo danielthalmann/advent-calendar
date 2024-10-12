@@ -26,9 +26,20 @@ MonoBehaviour:
   HeadWidth: 0.186
   JumpHeight: 6.5
   JumpHeightComponsationFactor: 1.054
-  TileTillJumpApex: 0.35
+  TimeTillJumpApex: 0.35
   GravityOnReleaseMultiplier: 2
   MaxFallSpeed: 26
   NumberOfJumpAllowed: 2
   TimeForUpwardsCancel: 0.027
-  DebugShowIsGroundedBox: 1
+  ApexThreshold: 0.97
+  ApexHamgTime: 0.075
+  JumpBufferTime: 0.422
+  JumpCoyoteTime: 0.193
+  DebugShowIsGroundedBox: 0
+  DebugShowHeadBumpBox: 0
+  ShowWalkJumpArc: 1
+  ShowRunJumpArc: 1
+  StopOnCollision: 1
+  DrawRight: 1
+  ArcResolution: 33
+  VisualizationSteps: 90
