@@ -154,9 +154,15 @@ public class PlayerMovement : MonoBehaviour
 
     }
 
+    private void BumpedHead()
+    {
+
+    }
+
     private void CollisionChecks()
     {
         IsGrounded();
+        BumpedHead();
     }
     #endregion
 
@@ -208,7 +214,7 @@ public class PlayerMovement : MonoBehaviour
         }
 
         // double jump
-        else if (_JumpBufferTimer > 0f && _isJumping && _numberOfJumpUsed < MoveStats.NumberOfJumpAllowed)
+        else if (_JumpBufferTimer > 0f && _isJumping && _numberOfJumpUsed < MoveStats.NumberOfJumpAllowed - 1)
         {
             _isFastFalling = false;
             InitiateJump(1);
@@ -221,9 +227,16 @@ public class PlayerMovement : MonoBehaviour
             _isFastFalling = false;
         }
 
-        if ((_isJumping || _isFalling))
+        // landed
+        if ((_isJumping || _isFalling) && _isGrounded && VerticcalVelocity <= 0)
         {
+            _isJumping = false;
+            _isFalling = false;
+            _isFastFalling = false;
+            _fastFallTime = 0f;
+            _isPastApexThreshold = false;
 
+            VerticcalVelocity = Physics2D.gravity.y;
         }
 
 
@@ -243,11 +256,101 @@ public class PlayerMovement : MonoBehaviour
 
     }
 
+    private void Jump()
+    {
+
+        if(_isJumping)
+        {
+            if((_bumpedHead))
+            {
+                _isFastFalling = true;
+            }
+        }
+
+        if (VerticcalVelocity >= 0f)
+        {
+            _apexPoint = Mathf.InverseLerp(MoveStats.InitialJumpVelocity, 0f, VerticcalVelocity);
+
+            if ( _apexPoint > MoveStats.ApexThreshold)
+            {
+                _isPastApexThreshold = true;
+                _timePastApexThreshold = 0f;
+
+            }
+
+            if( _isPastApexThreshold)
+            {
+                _timePastApexThreshold += Time.fixedDeltaTime;
+                if (_timePastApexThreshold < MoveStats.ApexHamgTime)
+                {
+                    VerticcalVelocity = 0f;
+                }
+                else
+                {
+                    VerticcalVelocity = -0.01f;
+                }
+
+            }
+            else
+            {
+                VerticcalVelocity += MoveStats.Gravity * Time.fixedDeltaTime;
+                if(_isPastApexThreshold)
+                {
+                    _isPastApexThreshold = false;
+                }
+
+            }
+
+        }
+         else if (!_isFastFalling)
+        {
+            VerticcalVelocity += MoveStats.Gravity * MoveStats.GravityOnReleaseMultiplier * Time.fixedDeltaTime;
+        }
+        else if (VerticcalVelocity < 0f)
+        {
+            if(!_isFastFalling)
+            {
+                _isFastFalling = true;
+            }
+        }
+
+
+        // jump cut
+        if ( _isFastFalling)
+        {
+            if (_fastFallTime >= MoveStats.TimeForUpwardsCancel)
+            {
+                VerticcalVelocity += MoveStats.Gravity * MoveStats.GravityOnReleaseMultiplier * Time.fixedDeltaTime;
+            }
+            else if (_fastFallTime < MoveStats.TimeForUpwardsCancel)
+            {
+                VerticcalVelocity = Mathf.Lerp(_fastFallReleaseSpeed, 0f, (_fastFallTime / MoveStats.TimeForUpwardsCancel));
+            }
+            _fastFallTime += Time.fixedDeltaTime; 
+
+        }
+
+        if (!_isGrounded && !_isJumping)
+        {
+            if ( !_isFalling)
+            {
+                _isFalling = true;
+            }
+            VerticcalVelocity += MoveStats.Gravity * Time.fixedDeltaTime;
+        }
+
+        VerticcalVelocity = Mathf.Clamp(VerticcalVelocity, -MoveStats.MaxFallSpeed, 50f);
+
+        _rb.velocity = new Vector2(_rb.velocity.x, VerticcalVelocity);
+
+
+    }
+
+
     // Start is called before the first frame update
     void Start()
     {
-
-                
+                        
     }
 
     private void Update()
