@@ -55,7 +55,7 @@ public class PlayerMovementStats : ScriptableObject
     [Range(0.5f, 1f)]
     public float ApexThreshold = 0.97f;
     [Range(0.01f, 1f)]
-    public float ApexHamgTime = 0.075f;
+    public float ApexHangTime = 0.075f;
 
 
     [Header("Jump Buffer")]
@@ -103,7 +103,7 @@ public class PlayerMovementStats : ScriptableObject
     private void CalculateValues()
     {
         AdjustedJumpHeight = JumpHeight * JumpHeightComponsationFactor;
-        Gravity = (-2f * JumpHeight) / Mathf.Pow(TimeTillJumpApex, 2f);
+        Gravity = (-2f * AdjustedJumpHeight) / Mathf.Pow(TimeTillJumpApex, 2f);
         InitialJumpVelocity = Mathf.Abs(Gravity) * TimeTillJumpApex;
     }
 
