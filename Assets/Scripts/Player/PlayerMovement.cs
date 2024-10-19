@@ -456,7 +456,8 @@ public class PlayerMovement : MonoBehaviour
     {
         if (MoveStats.ShowWalkJumpArc)
         {
-            DrawJumpArc(MoveStats.MaxRunSpeed, Color.white);
+            DrawJumpArc(MoveStats.MaxWalkSpeed, Color.white);
+            DrawJumpArc(MoveStats.MaxRunSpeed, Color.blue);
         }
     }
 
