@@ -12,34 +12,34 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f0035eb703d9154bac262f5fbbccf18, type: 3}
   m_Name: Player Movement Stats
   m_EditorClassIdentifier: 
-  MaxWalkSpeed: 3
-  GroundAcceleration: 5
-  GroundDeceleration: 20
-  AirAcceleration: 5
-  AirDeceleration: 20
-  MaxRunSpeed: 5
+  MaxWalkSpeed: 3.1
+  GroundAcceleration: 4.7
+  GroundDeceleration: 17.3
+  AirAcceleration: 9.6
+  AirDeceleration: 2
+  MaxRunSpeed: 2.4
   GroundLayer:
     serializedVersion: 2
     m_Bits: 8
-  GroundDetectionRayLength: 0
-  HeadDetectionRayLength: 0.2
-  HeadWidth: 0.186
-  JumpHeight: 6.5
-  JumpHeightComponsationFactor: 1.054
-  TimeTillJumpApex: 0.35
-  GravityOnReleaseMultiplier: 2
-  MaxFallSpeed: 26
+  GroundDetectionRayLength: 0.05
+  HeadDetectionRayLength: 0.05
+  HeadWidth: 1
+  JumpHeight: 1.22
+  JumpHeightComponsationFactor: 1.0619429
+  TimeTillJumpApex: 0.59
+  GravityOnReleaseMultiplier: 2.9985025
+  MaxFallSpeed: 11.23
   NumberOfJumpAllowed: 2
-  TimeForUpwardsCancel: 0.027
-  ApexThreshold: 0.97
-  ApexHamgTime: 0.075
-  JumpBufferTime: 0.422
-  JumpCoyoteTime: 0.193
-  DebugShowIsGroundedBox: 0
-  DebugShowHeadBumpBox: 0
+  TimeForUpwardsCancel: 0.0787
+  ApexThreshold: 0.535
+  ApexHangTime: 0.01
+  JumpBufferTime: 0.14
+  JumpCoyoteTime: 0.06
+  DebugShowIsGroundedBox: 1
+  DebugShowHeadBumpBox: 1
   ShowWalkJumpArc: 1
   ShowRunJumpArc: 1
   StopOnCollision: 1
   DrawRight: 1
-  ArcResolution: 33
-  VisualizationSteps: 90
+  ArcResolution: 14
+  VisualizationSteps: 17

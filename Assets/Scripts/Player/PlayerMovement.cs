@@ -265,7 +265,7 @@ public class PlayerMovement : MonoBehaviour
             _fastFallTime = 0f;
             _isPastApexThreshold = false;
 
-            VerticcalVelocity = Physics2D.gravity.y;
+            //VerticcalVelocity = Physics2D.gravity.y;
         }
 
 
@@ -300,12 +300,13 @@ public class PlayerMovement : MonoBehaviour
         {
             _apexPoint = Mathf.InverseLerp(MoveStats.InitialJumpVelocity, 0f, VerticcalVelocity);
 
-            if ( _apexPoint > MoveStats.ApexThreshold)
+            if (_apexPoint > MoveStats.ApexThreshold && ! _isPastApexThreshold)
             {
                 _isPastApexThreshold = true;
                 _timePastApexThreshold = 0f;
 
             }
+
 
             if( _isPastApexThreshold)
             {
@@ -316,13 +317,14 @@ public class PlayerMovement : MonoBehaviour
                 }
                 else
                 {
-                    VerticcalVelocity = -0.01f;
+                    VerticcalVelocity = -0.5f;
+                    _isFastFalling = true;
                 }
-
             }
             else
             {
                 VerticcalVelocity += MoveStats.Gravity * Time.fixedDeltaTime;
+
                 if(_isPastApexThreshold)
                 {
                     _isPastApexThreshold = false;
@@ -331,7 +333,7 @@ public class PlayerMovement : MonoBehaviour
             }
 
         }
-         else if (!_isFastFalling)
+        else if (!_isFastFalling)
         {
             VerticcalVelocity += MoveStats.Gravity * MoveStats.GravityOnReleaseMultiplier * Time.fixedDeltaTime;
         }
@@ -456,7 +458,8 @@ public class PlayerMovement : MonoBehaviour
     {
         if (MoveStats.ShowWalkJumpArc)
         {
-            DrawJumpArc(MoveStats.MaxRunSpeed, Color.white);
+            DrawJumpArc(MoveStats.MaxWalkSpeed, Color.white);
+            DrawJumpArc(MoveStats.MaxRunSpeed, Color.red);
         }
     }
 
