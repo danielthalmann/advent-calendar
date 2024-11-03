@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
@@ -47,6 +48,16 @@ public class PlayerMovement : MonoBehaviour
 
     private float _coyoteTimer;
 
+
+    public bool IsJumping()
+    {
+        return (_isJumping && VerticcalVelocity > 0f);
+    }
+
+    public bool IsFalling()
+    {
+        return (_isJumping || _isFalling) && !_isGrounded && VerticcalVelocity <= 0;
+    }
 
     private void Awake()
     {
@@ -198,16 +209,24 @@ public class PlayerMovement : MonoBehaviour
 
     private void JumpCheck()
     {
+        // When we press the jump button
         if (InputManager.JumpWasPressed)
         {
             _JumpBufferTimer = MoveStats.JumpBufferTime;
             _JumpReleaseDuringBuffer = false;
+
+            //Debug.Log("JumpWasPressed");
+            //Debug.Log(_JumpBufferTimer);
+            //Debug.Log(_isJumping);
+            //Debug.Log(_numberOfJumpUsed);
+            //Debug.Log(MoveStats.NumberOfJumpAllowed);
         }
         
         // When we release the jump button
         if (InputManager.JumpWasRelease)
         {
-            if (_JumpBufferTimer > 0f)
+
+            if (_JumpBufferTimer > 0)
             {
                 _JumpReleaseDuringBuffer = true;
             }
@@ -226,32 +245,34 @@ public class PlayerMovement : MonoBehaviour
                     _isFastFalling = true;
                     _fastFallReleaseSpeed = VerticcalVelocity;
                 }
-
             }
         }
 
         // initiate jump
-        if ( _JumpBufferTimer > 0f && !_isJumping && (_isGrounded || _coyoteTimer > 0f))
+        if ( _JumpBufferTimer > 0 && !_isJumping && (_isGrounded || _coyoteTimer > 0f))
         {
-            InitiateJump(1);
 
             if(_JumpReleaseDuringBuffer)
             {
                 _isFastFalling = true;
                 _fastFallReleaseSpeed = VerticcalVelocity;
             }
+            InitiateJump(1);
+            
         }
 
         // double jump
-        else if (_JumpBufferTimer > 0f && _isJumping && _numberOfJumpUsed < MoveStats.NumberOfJumpAllowed - 1)
+        else if (/*_JumpBufferTimer > 0f && */ _isJumping && _numberOfJumpUsed < MoveStats.NumberOfJumpAllowed - 1)
         {
+            Debug.Log("double jump");
             _isFastFalling = false;
             InitiateJump(1);
         }
 
         // air jump
-        else if (_JumpBufferTimer > 0f && _isFalling && _numberOfJumpUsed < MoveStats.NumberOfJumpAllowed)
+        else if (/*_JumpBufferTimer > 0f && */ _isFalling && _numberOfJumpUsed < MoveStats.NumberOfJumpAllowed - 1)
         {
+            Debug.Log("air jump");
             InitiateJump(2);
             _isFastFalling = false;
         }
@@ -265,10 +286,8 @@ public class PlayerMovement : MonoBehaviour
             _fastFallTime = 0f;
             _isPastApexThreshold = false;
 
-            //VerticcalVelocity = Physics2D.gravity.y;
+            VerticcalVelocity = Physics2D.gravity.y;
         }
-
-
     }
 
     private void InitiateJump(int numberOfJumpUsed)
@@ -278,7 +297,7 @@ public class PlayerMovement : MonoBehaviour
             _isJumping = true;
         }
 
-        _JumpBufferTimer = 0f;
+        _JumpBufferTimer = 0;
         _numberOfJumpUsed += numberOfJumpUsed;
         VerticcalVelocity = MoveStats.InitialJumpVelocity;
 
@@ -345,8 +364,6 @@ public class PlayerMovement : MonoBehaviour
             }
         }
 
-
-        // jump cut
         if ( _isFastFalling)
         {
             if (_fastFallTime >= MoveStats.TimeForUpwardsCancel)

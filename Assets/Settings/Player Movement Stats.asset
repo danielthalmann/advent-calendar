@@ -14,27 +14,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MaxWalkSpeed: 3.1
   GroundAcceleration: 4.7
-  GroundDeceleration: 17.3
-  AirAcceleration: 9.6
-  AirDeceleration: 2
-  MaxRunSpeed: 2.4
+  GroundDeceleration: 13.6
+  AirAcceleration: 38.1
+  AirDeceleration: 14
+  MaxRunSpeed: 4
   GroundLayer:
     serializedVersion: 2
     m_Bits: 8
   GroundDetectionRayLength: 0.05
   HeadDetectionRayLength: 0.05
-  HeadWidth: 1
+  HeadWidth: 0.113
   JumpHeight: 1.22
-  JumpHeightComponsationFactor: 1.0619429
+  JumpHeightComponsationFactor: 1
   TimeTillJumpApex: 0.59
-  GravityOnReleaseMultiplier: 2.9985025
+  GravityOnReleaseMultiplier: 1.6
   MaxFallSpeed: 11.23
   NumberOfJumpAllowed: 2
   TimeForUpwardsCancel: 0.0787
-  ApexThreshold: 0.535
+  ApexThreshold: 0.52
   ApexHangTime: 0.01
-  JumpBufferTime: 0.14
-  JumpCoyoteTime: 0.06
+  JumpBufferTime: 0.033
+  JumpCoyoteTime: 0
   DebugShowIsGroundedBox: 1
   DebugShowHeadBumpBox: 1
   ShowWalkJumpArc: 1

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 001214b2a6820fa4c9853fd71798e527
+guid: c6212386eee59af4abd58b033e10fe16
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -121,18 +121,78 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: Sprite-0001
+  - name: obstacles_Frame_0
     originalName: 
-    pivot: {x: 0.49999997, y: -0.030303031}
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 79
+      width: 25
+      height: 6
+    spriteID: f9cbb3c5f28fa094db4684b19861294b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 79}
+  - name: obstacles_Frame_1
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 63
+      width: 25
+      height: 8
+    spriteID: bfaf8a4d6b8469e4b82cbe185f0af1c8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 63}
+  - name: obstacles_Frame_2
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 45
+      width: 25
+      height: 10
+    spriteID: c0f016869d7cefd47a6d7a0f56e6420e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 45}
+  - name: obstacles_Frame_3
+    originalName: 
+    pivot: {x: 0.5, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 39
-      height: 66
-    spriteID: 4f53ebcb752ad77459153ee2b28ed7c9
+      width: 25
+      height: 14
+    spriteID: 277eae8a0ffb0db46a74b7ccc149d873
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -141,27 +201,107 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
+  - name: obstacles_Frame_4
+    originalName: 
+    pivot: {x: 0.5, y: -0.27272725}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 26
+      width: 23
+      height: 11
+    spriteID: 6abf9434ccb41a8499413c649e430dbf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 26}
+  - name: obstacles_Frame_0
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 93
+      width: 25
+      height: 3
+    spriteID: fc9ed6b98d633494e8e24cfaa5f57fdb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 93}
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: -572921211
-    name: Sprite-0001
+    guid: 640232208
+    name: obstacles
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: Sprite-0001
+    - name: obstacles_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 0
+        y: 0
+        width: 25
+        height: 6
+      spriteId: f9cbb3c5f28fa094db4684b19861294b
+    - name: obstacles_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 0
+        y: 0
+        width: 25
+        height: 8
+      spriteId: bfaf8a4d6b8469e4b82cbe185f0af1c8
+    - name: obstacles_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 0
+        y: 0
+        width: 25
+        height: 10
+      spriteId: c0f016869d7cefd47a6d7a0f56e6420e
+    - name: obstacles_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 0
+        y: 0
+        width: 25
+        height: 14
+      spriteId: 277eae8a0ffb0db46a74b7ccc149d873
+    - name: obstacles_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 1
+        y: 3
+        width: 23
+        height: 11
+      spriteId: 6abf9434ccb41a8499413c649e430dbf
+    - name: obstacles_Frame_0
       frameIndex: 0
       cellRect:
-        x: 18
-        y: 2
-        width: 39
-        height: 66
-      spriteId: 4f53ebcb752ad77459153ee2b28ed7c9
+        x: 0
+        y: 0
+        width: 25
+        height: 3
+      spriteId: fc9ed6b98d633494e8e24cfaa5f57fdb
     linkedCells: []
     parentIndex: -1
   platformSettings: []
   generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
-  canvasSize: {x: 75, y: 75}
+  canvasSize: {x: 25, y: 25}

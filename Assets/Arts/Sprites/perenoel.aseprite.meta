@@ -97,7 +97,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   importFileNodeState: 1
-  platformSettingsDirtyTick: 638642347029100502
+  platformSettingsDirtyTick: 638660552020710774
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -121,18 +121,98 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: perenoel_Frame_9
+  - name: perenoel_Frame_0
     originalName: 
     pivot: {x: 0.44871792, y: -0.015151516}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 62
+      x: 67
+      y: 155
+      width: 39
+      height: 66
+    spriteID: 866fbdcab2251054e806a896c6deada3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 67, y: 155}
+  - name: perenoel_Frame_1
+    originalName: 
+    pivot: {x: 0.44871792, y: -0.015151516}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 67
+      y: 229
+      width: 39
+      height: 66
+    spriteID: ab6a37c3add1ae648af8eeb33d8ad853
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 67, y: 229}
+  - name: perenoel_Frame_2
+    originalName: 
+    pivot: {x: 0.44871792, y: -0.015151516}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 67
+      y: 303
+      width: 39
+      height: 66
+    spriteID: edc93615e0b62f84888360167c80c5f9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 67, y: 303}
+  - name: perenoel_Frame_3
+    originalName: 
+    pivot: {x: 0.44871792, y: -0.015151516}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 67
+      y: 377
+      width: 39
+      height: 66
+    spriteID: 4a34e38eee3ab9647ad93ce087e5a1dd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 67, y: 377}
+  - name: perenoel_Frame_4
+    originalName: 
+    pivot: {x: 0.44871792, y: -0.015151516}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 116
       y: 75
       width: 39
       height: 66
-    spriteID: 9ff119ac169290b40894f6a42e89be09
+    spriteID: d872ebc4fcec5994fa312bceb6a75d00
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -140,88 +220,8 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 62, y: 75}
-  - name: perenoel_Frame_10
-    originalName: 
-    pivot: {x: 0.44871792, y: -0.015151516}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 62
-      y: 149
-      width: 39
-      height: 66
-    spriteID: e9e2bd341aa4bc34fa953bbad45bdd99
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 62, y: 149}
-  - name: perenoel_Frame_11
-    originalName: 
-    pivot: {x: 0.44871792, y: -0.015151516}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 62
-      y: 223
-      width: 39
-      height: 66
-    spriteID: f1925d24a1076ac44be2b0fe88832fb0
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 62, y: 223}
-  - name: perenoel_Frame_15
-    originalName: 
-    pivot: {x: 0.44871792, y: -0.015151516}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 62
-      y: 297
-      width: 39
-      height: 66
-    spriteID: 9bb66fd82e8934b45b4ce714969483db
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 62, y: 297}
-  - name: perenoel_Frame_16
-    originalName: 
-    pivot: {x: 0.44871792, y: -0.015151516}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 62
-      y: 371
-      width: 39
-      height: 66
-    spriteID: be2d145c9c4e17f40bfa09bfea4b56bd
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 62, y: 371}
-  - name: perenoel_Frame_17
+    uvTransform: {x: 116, y: 75}
+  - name: perenoel_Frame_5
     originalName: 
     pivot: {x: 0.45121953, y: -0.015151516}
     alignment: 9
@@ -229,10 +229,10 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 4
-      y: 216
+      y: 359
       width: 41
       height: 66
-    spriteID: b36a46dbfaaa18f4f84871c687a1abf0
+    spriteID: 93a9df808e45c0c4e9c26ef9049a2236
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -240,8 +240,8 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 216}
-  - name: perenoel_Frame_18
+    uvTransform: {x: 4, y: 359}
+  - name: perenoel_Frame_6
     originalName: 
     pivot: {x: 0.45121953, y: -0.015384615}
     alignment: 9
@@ -249,10 +249,10 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 4
-      y: 290
+      y: 433
       width: 41
       height: 65
-    spriteID: b22f66455950979489299b138baa72f4
+    spriteID: 8ae69d44b61802e4dbc9caf3fd9c2d68
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -260,19 +260,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 290}
-  - name: perenoel_Frame_20
+    uvTransform: {x: 4, y: 433}
+  - name: perenoel_Frame_7
     originalName: 
     pivot: {x: 0.45121953, y: -0.015384615}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
-      y: 363
+      x: 67
+      y: 4
       width: 41
       height: 65
-    spriteID: 7e2c6dfcfdb236e428c84897a374717b
+    spriteID: 3f8bad60795e4f743a49cfcd97b16342
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -280,19 +280,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 363}
-  - name: perenoel_Frame_21
+    uvTransform: {x: 67, y: 4}
+  - name: perenoel_Frame_9
     originalName: 
     pivot: {x: 0.44871792, y: -0.03125}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 157
-      y: 4
+      x: 116
+      y: 226
       width: 39
       height: 64
-    spriteID: 2526276df2692b749866ed4a244e937b
+    spriteID: ba072a22fa115724d80c5af66cf9339a
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -300,19 +300,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 157, y: 4}
-  - name: perenoel_Frame_22
+    uvTransform: {x: 116, y: 226}
+  - name: perenoel_Frame_10
     originalName: 
     pivot: {x: 0.4393939, y: -0.03125}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 157
-      y: 292
+      x: 166
+      y: 70
       width: 33
       height: 64
-    spriteID: 16299efb417c2dd42a9f4d4945d2cf73
+    spriteID: 622757a72be460644b1267570ec4c0c9
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -320,8 +320,8 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 157, y: 292}
-  - name: perenoel_Frame_23
+    uvTransform: {x: 166, y: 70}
+  - name: perenoel_Frame_11
     originalName: 
     pivot: {x: 0.45000002, y: -0.03125}
     alignment: 9
@@ -329,70 +329,10 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 4
-      y: 4
-      width: 50
-      height: 64
-    spriteID: 590516085b6972b47bb0cddf31fea37c
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 4, y: 4}
-  - name: perenoel_Frame_0
-    originalName: 
-    pivot: {x: 0.40277776, y: -0.03125}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 157
-      y: 220
-      width: 36
-      height: 64
-    spriteID: e38c9d64b94b4b448ba57a60fdefa0f7
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 157, y: 220}
-  - name: perenoel_Frame_1
-    originalName: 
-    pivot: {x: 0.40999997, y: -0.047619045}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 76
-      width: 50
-      height: 63
-    spriteID: 71167dae68eb46b4d9633ba6757bc111
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 4, y: 76}
-  - name: perenoel_Frame_2
-    originalName: 
-    pivot: {x: 0.4361702, y: -0.06557377}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
       y: 147
-      width: 47
-      height: 61
-    spriteID: e9e1097501259ce4ca7111e6620d3e93
+      width: 50
+      height: 64
+    spriteID: 4bdec1dd356079e4bbd64a4e5c35dc44
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -401,18 +341,18 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 147}
-  - name: perenoel_Frame_3
+  - name: perenoel_Frame_15
     originalName: 
-    pivot: {x: 0.44871792, y: -0.03125}
+    pivot: {x: 0.40277776, y: -0.03125}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 157
-      y: 76
-      width: 39
+      x: 116
+      y: 442
+      width: 36
       height: 64
-    spriteID: 501d5b3f9827feb47ab883396befe031
+    spriteID: 88e7869877cf2424d9e569f271fb0765
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -420,19 +360,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 157, y: 76}
-  - name: perenoel_Frame_4
+    uvTransform: {x: 116, y: 442}
+  - name: perenoel_Frame_16
     originalName: 
-    pivot: {x: 0.44871792, y: -0.03125}
+    pivot: {x: 0.40999997, y: -0.047619045}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 157
-      y: 148
-      width: 39
-      height: 64
-    spriteID: 208c434682568db4fac81439d31a3ca2
+      x: 4
+      y: 219
+      width: 50
+      height: 63
+    spriteID: 934e7dfef0cb941439d18de17aea24b6
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -440,19 +380,79 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 157, y: 148}
-  - name: perenoel_Frame_5
+    uvTransform: {x: 4, y: 219}
+  - name: perenoel_Frame_17
+    originalName: 
+    pivot: {x: 0.4361702, y: -0.06557377}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 290
+      width: 47
+      height: 61
+    spriteID: 1cbbbf6167cb20e4fbf12c69dd853b86
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 290}
+  - name: perenoel_Frame_18
+    originalName: 
+    pivot: {x: 0.44871792, y: -0.03125}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 116
+      y: 298
+      width: 39
+      height: 64
+    spriteID: 0cb6acea9fa1ce34299c72d97d1870c4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 116, y: 298}
+  - name: perenoel_Frame_20
+    originalName: 
+    pivot: {x: 0.44871792, y: -0.03125}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 116
+      y: 370
+      width: 39
+      height: 64
+    spriteID: 49c369ecad7b8704eaba98d655491cc5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 116, y: 370}
+  - name: perenoel_Frame_21
     originalName: 
     pivot: {x: 0.4605263, y: -0.03448276}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 62
-      y: 445
+      x: 166
+      y: 4
       width: 38
       height: 58
-    spriteID: 0b67a93deaf74a14b91d6f026248c4bd
+    spriteID: a73b7bbe5bcb09b42a3d8730c9d0767c
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -460,19 +460,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 62, y: 445}
-  - name: perenoel_Frame_6
+    uvTransform: {x: 166, y: 4}
+  - name: perenoel_Frame_22
     originalName: 
     pivot: {x: 0.40789476, y: -0.057142857}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
-      y: 436
+      x: 67
+      y: 77
       width: 38
       height: 70
-    spriteID: 99976f6da25fd3c449a0e77a7d06b0bd
+    spriteID: a17d71fa9ee2c9c4ebaab7f6df541569
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -480,19 +480,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 436}
-  - name: perenoel_Frame_7
+    uvTransform: {x: 67, y: 77}
+  - name: perenoel_Frame_23
     originalName: 
     pivot: {x: 0.3648649, y: -0.07246377}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 112
-      y: 4
+      x: 116
+      y: 149
       width: 37
       height: 69
-    spriteID: f850007522aad3647a1549e2abb03b4a
+    spriteID: 9987e8ce61bf69a4ca30bf3c6d245756
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -500,19 +500,59 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 112, y: 4}
+    uvTransform: {x: 116, y: 149}
+  - name: perenoel_Frame_25
+    originalName: 
+    pivot: {x: 0.42727274, y: -0.17460316}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 55
+      height: 63
+    spriteID: 1689aeb0ae9b3ff41897f36a0744331d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
   - name: perenoel_Frame_12
+    originalName: 
+    pivot: {x: 0.4215686, y: -0.15625001}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 75
+      width: 51
+      height: 64
+    spriteID: 2577989cf09c934438359d357e0dac63
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 75}
+  - name: perenoel_Frame_13
     originalName: 
     pivot: {x: 0.5119048, y: -0.047619045}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 62
+      x: 116
       y: 4
       width: 42
       height: 63
-    spriteID: 95eaccae9bb55cf4a96b0daba411920e
+    spriteID: fa5df0e8e0491fa4fa6c89df2ab0dc88
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -520,19 +560,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 62, y: 4}
-  - name: perenoel_Frame_13
+    uvTransform: {x: 116, y: 4}
+  - name: perenoel_Frame_14
     originalName: 
     pivot: {x: 0.48333332, y: -0.03125}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 157
-      y: 364
+      x: 166
+      y: 142
       width: 30
       height: 64
-    spriteID: bbd495ba72d289946840d1fb147eee97
+    spriteID: d6621121a249e7444ab8c14f64d0c7ff
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -540,7 +580,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 157, y: 364}
+    uvTransform: {x: 166, y: 142}
   - name: perenoel_Frame_14
     originalName: 
     pivot: {x: 0.48076922, y: -0.033333335}
@@ -548,11 +588,11 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 157
-      y: 436
+      x: 166
+      y: 214
       width: 26
       height: 60
-    spriteID: 192c8d96db8b082449c53c7eaf809fc9
+    spriteID: 511a89ce7c7ab5142aa077790e2c71cf
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -560,7 +600,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 157, y: 436}
+    uvTransform: {x: 166, y: 214}
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
@@ -577,7 +617,7 @@ ScriptedImporter:
         y: 1
         width: 39
         height: 66
-      spriteId: 9ff119ac169290b40894f6a42e89be09
+      spriteId: 866fbdcab2251054e806a896c6deada3
     - name: perenoel_Frame_1
       frameIndex: 1
       cellRect:
@@ -585,7 +625,7 @@ ScriptedImporter:
         y: 1
         width: 39
         height: 66
-      spriteId: e9e2bd341aa4bc34fa953bbad45bdd99
+      spriteId: ab6a37c3add1ae648af8eeb33d8ad853
     - name: perenoel_Frame_2
       frameIndex: 2
       cellRect:
@@ -593,7 +633,7 @@ ScriptedImporter:
         y: 1
         width: 39
         height: 66
-      spriteId: f1925d24a1076ac44be2b0fe88832fb0
+      spriteId: edc93615e0b62f84888360167c80c5f9
     - name: perenoel_Frame_3
       frameIndex: 3
       cellRect:
@@ -601,7 +641,7 @@ ScriptedImporter:
         y: 1
         width: 39
         height: 66
-      spriteId: 9bb66fd82e8934b45b4ce714969483db
+      spriteId: 4a34e38eee3ab9647ad93ce087e5a1dd
     - name: perenoel_Frame_4
       frameIndex: 4
       cellRect:
@@ -609,7 +649,7 @@ ScriptedImporter:
         y: 1
         width: 39
         height: 66
-      spriteId: be2d145c9c4e17f40bfa09bfea4b56bd
+      spriteId: d872ebc4fcec5994fa312bceb6a75d00
     - name: perenoel_Frame_5
       frameIndex: 5
       cellRect:
@@ -617,7 +657,7 @@ ScriptedImporter:
         y: 1
         width: 41
         height: 66
-      spriteId: b36a46dbfaaa18f4f84871c687a1abf0
+      spriteId: 93a9df808e45c0c4e9c26ef9049a2236
     - name: perenoel_Frame_6
       frameIndex: 6
       cellRect:
@@ -625,7 +665,7 @@ ScriptedImporter:
         y: 1
         width: 41
         height: 65
-      spriteId: b22f66455950979489299b138baa72f4
+      spriteId: 8ae69d44b61802e4dbc9caf3fd9c2d68
     - name: perenoel_Frame_7
       frameIndex: 7
       cellRect:
@@ -633,55 +673,63 @@ ScriptedImporter:
         y: 1
         width: 41
         height: 65
-      spriteId: 7e2c6dfcfdb236e428c84897a374717b
-    - name: perenoel_Frame_9
-      frameIndex: 9
+      spriteId: 3f8bad60795e4f743a49cfcd97b16342
+    - name: perenoel_Frame_8
+      frameIndex: 8
       cellRect:
         x: 20
         y: 2
         width: 39
         height: 64
-      spriteId: 2526276df2692b749866ed4a244e937b
-    - name: perenoel_Frame_10
-      frameIndex: 10
+      spriteId: ba072a22fa115724d80c5af66cf9339a
+    - name: perenoel_Frame_9
+      frameIndex: 9
       cellRect:
         x: 23
         y: 2
         width: 33
         height: 64
-      spriteId: 16299efb417c2dd42a9f4d4945d2cf73
-    - name: perenoel_Frame_11
-      frameIndex: 11
+      spriteId: 622757a72be460644b1267570ec4c0c9
+    - name: perenoel_Frame_10
+      frameIndex: 10
       cellRect:
         x: 15
         y: 2
         width: 50
         height: 64
-      spriteId: 590516085b6972b47bb0cddf31fea37c
-    - name: perenoel_Frame_15
-      frameIndex: 15
+      spriteId: 4bdec1dd356079e4bbd64a4e5c35dc44
+    - name: perenoel_Frame_14
+      frameIndex: 14
       cellRect:
         x: 23
         y: 2
         width: 36
         height: 64
-      spriteId: e38c9d64b94b4b448ba57a60fdefa0f7
-    - name: perenoel_Frame_16
-      frameIndex: 16
+      spriteId: 88e7869877cf2424d9e569f271fb0765
+    - name: perenoel_Frame_15
+      frameIndex: 15
       cellRect:
         x: 17
         y: 3
         width: 50
         height: 63
-      spriteId: 71167dae68eb46b4d9633ba6757bc111
-    - name: perenoel_Frame_17
-      frameIndex: 17
+      spriteId: 934e7dfef0cb941439d18de17aea24b6
+    - name: perenoel_Frame_16
+      frameIndex: 16
       cellRect:
         x: 17
         y: 4
         width: 47
         height: 61
-      spriteId: e9e1097501259ce4ca7111e6620d3e93
+      spriteId: 1cbbbf6167cb20e4fbf12c69dd853b86
+    - name: perenoel_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 20
+        y: 2
+        width: 39
+        height: 64
+      spriteId: 0cb6acea9fa1ce34299c72d97d1870c4
     - name: perenoel_Frame_18
       frameIndex: 18
       cellRect:
@@ -689,63 +737,71 @@ ScriptedImporter:
         y: 2
         width: 39
         height: 64
-      spriteId: 501d5b3f9827feb47ab883396befe031
-    - name: perenoel_Frame_20
-      frameIndex: 20
-      cellRect:
-        x: 20
-        y: 2
-        width: 39
-        height: 64
-      spriteId: 208c434682568db4fac81439d31a3ca2
-    - name: perenoel_Frame_21
-      frameIndex: 21
+      spriteId: 49c369ecad7b8704eaba98d655491cc5
+    - name: perenoel_Frame_19
+      frameIndex: 19
       cellRect:
         x: 20
         y: 2
         width: 38
         height: 58
-      spriteId: 0b67a93deaf74a14b91d6f026248c4bd
-    - name: perenoel_Frame_22
-      frameIndex: 22
+      spriteId: a73b7bbe5bcb09b42a3d8730c9d0767c
+    - name: perenoel_Frame_20
+      frameIndex: 20
       cellRect:
         x: 22
         y: 4
         width: 38
         height: 70
-      spriteId: 99976f6da25fd3c449a0e77a7d06b0bd
-    - name: perenoel_Frame_23
-      frameIndex: 23
+      spriteId: a17d71fa9ee2c9c4ebaab7f6df541569
+    - name: perenoel_Frame_21
+      frameIndex: 21
       cellRect:
         x: 24
         y: 5
         width: 37
         height: 69
-      spriteId: f850007522aad3647a1549e2abb03b4a
-    - name: perenoel_Frame_12
-      frameIndex: 12
+      spriteId: 9987e8ce61bf69a4ca30bf3c6d245756
+    - name: perenoel_Frame_22
+      frameIndex: 22
+      cellRect:
+        x: 14
+        y: 11
+        width: 55
+        height: 63
+      spriteId: 1689aeb0ae9b3ff41897f36a0744331d
+    - name: perenoel_Frame_23
+      frameIndex: 23
+      cellRect:
+        x: 16
+        y: 10
+        width: 51
+        height: 64
+      spriteId: 2577989cf09c934438359d357e0dac63
+    - name: perenoel_Frame_11
+      frameIndex: 11
       cellRect:
         x: 16
         y: 3
         width: 42
         height: 63
-      spriteId: 95eaccae9bb55cf4a96b0daba411920e
-    - name: perenoel_Frame_13
-      frameIndex: 13
+      spriteId: fa5df0e8e0491fa4fa6c89df2ab0dc88
+    - name: perenoel_Frame_12
+      frameIndex: 12
       cellRect:
         x: 23
         y: 2
         width: 30
         height: 64
-      spriteId: bbd495ba72d289946840d1fb147eee97
-    - name: perenoel_Frame_14
-      frameIndex: 14
+      spriteId: d6621121a249e7444ab8c14f64d0c7ff
+    - name: perenoel_Frame_13
+      frameIndex: 13
       cellRect:
         x: 25
         y: 2
         width: 26
         height: 60
-      spriteId: 192c8d96db8b082449c53c7eaf809fc9
+      spriteId: 511a89ce7c7ab5142aa077790e2c71cf
     linkedCells: []
     parentIndex: -1
   platformSettings:
